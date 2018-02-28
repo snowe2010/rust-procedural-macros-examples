@@ -7,10 +7,6 @@ authors = ["Tyler Thrailkill <tyler.thrailkill@promontech.com>"]
 proc-macro = true
 
 [dependencies]
-#syn = { version = "0.12", features = ["full", "derive"] }
-#quote = "0.4.2"
-#proc-macro2 = { version = "0.2", features = ["nightly"] }
-
-
-syn = "0.11.11"
-quote = "0.3.15"
+syn = { version = "0.12", features = ["full", "derive"] }
+quote = "0.4.2"
+proc-macro2 = { version = "0.2", features = ["nightly"] }
