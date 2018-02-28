@@ -1,0 +1,11 @@
+[[package]]
+name = "hello-world"
+version = "0.1.0"
+dependencies = [
+ "hello-world-derive 0.1.0",
+]
+
+[[package]]
+name = "hello-world-derive"
+version = "0.1.0"
+
